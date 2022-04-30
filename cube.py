@@ -49,6 +49,8 @@ while 1:
     | o o o o o o |
     ---------------
     """)
-
+    else:
+        print('then have good day :)')
+        break 
 
 
