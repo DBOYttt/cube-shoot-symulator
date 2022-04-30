@@ -12,10 +12,13 @@ while 1:
     x = input('can we start?(yes or no):')
 
     if x == 'yes':
-        print(random.randint(1, 6))
-
-    else:
-        break   
+        y = random.randint(1, 6)
+    if y == 1:
+        print("""
+    -------
+    |  o  |
+    -------
+    """) 
 
 
 
